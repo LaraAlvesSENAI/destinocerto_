@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sobre Nós</title>
+    <link rel="stylesheet" href="css/estilosobre.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="container-fluid fundo">
+<header>
+    <nav class="navbar navbar-expand-lg fundoNav">
+        <div class="logo">
+            <img src="img/logodestinocerto.png" alt="Logo" class="img-fluid rounded-2">
+        </div>
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mt-2">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link active" href="servicos.html">Serviços</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link active" href="sobrenos.html">Sobre</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link active" href="depoimentos.html">Depoimentos</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link active" href="contato.html">Contato</a>
+                    </li>
+
+                    <button type="button" class="btn" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                            data-bs-whatever="@mdo">
+                        <li class="nav-item">
+                            <a class="nav-link active"><i class="bi bi-person-workspace text-center"></i>      Login</a>
+                        </li>
+                    </button>
+
+                    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">CADASTRO</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="recipient-name" class="col-form-label">Login:</label>
+                                            <input type="text" class="form-control" id="recipient-name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message-text" class="col-form-label">Senha:</label>
+                                            <input type="text" class="form-control" id="message-text">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                                    <button type="button" class="btn ">Logar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+<!--                    <div class="d-flex justify-content-end align-items-center">-->
+<!--                        <i class="bi bi-person-workspace text-center"></i>-->
+<!--                        <a class="nav-link active" href="login.html">Login</a>-->
+<!--                    </div>-->
+                </ul>
+
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisa..." aria-label="Search">
+                    <button class="btn btn-outline" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+
+<div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/bannersobre1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/bannersobre2.png" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!--<div class="card-group mt-5">-->
+<!--    <div class="card">-->
+<!--        <img src="img/card1sobre.png" class="card-img-top" alt="...">-->
+<!--        <div class="card-body">-->
+<!--            <h5 class="card-title">Mais de mil lugares para visitar</h5>-->
+<!--            <p class="card-text"><small class="text-body-secondary">Há mais de 5 anos no ramo oferecendo os melhores destinos.</small></p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="card">-->
+<!--        <img src="img/card2sobre.png" class="card-img-top tamanho" alt="...">-->
+<!--        <div class="card-body">-->
+<!--            <h5 class="card-title">Promoções e pacotes especiais em datas comemorativas, como feriados, férias escolares, e datas-->
+<!--                festivas.</h5>-->
+<!--            <p class="card-text"><small class="text-body-secondary">Estamos sempre de olho no que é melhor pra você!</small></p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="card">-->
+<!--        <img src="img/card3sobre.png" class="card-img-top" alt="...">-->
+<!--        <div class="card-body">-->
+<!--            <h5 class="card-title">Organização de passeios e excursões locais, como visitas a museus, monumentos, parques naturais, entre outros.</h5>-->
+<!--            <p class="card-text"><small class="text-body-secondary"></small>Queremos que você tenha a melhor viagem de todas!</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+
+<div class="row d-flex justify-content-center align-items-center mt-2">
+
+    <div class="col-7 texto mt-4">
+        <p> Na Destino Certo, nossa paixão por viagens é o que nos motiva a oferecer experiências únicas e
+            inesquecíveis.
+            Acreditamos que cada viagem é uma oportunidade de descobrir novas culturas, viver momentos inesquecíveis e
+            criar
+            memórias que duram para sempre.</p>
+        <p>Nosso compromisso é proporcionar segurança, conforto e um atendimento de excelência, garantindo que você
+            tenha a melhor
+            experiência desde o primeiro contato até o retorno ao seu lar. Seja para destinos próximos ou longínquos,
+            estamos aqui
+            para tornar o seu sonho de viagem uma realidade. O seu destino ideal está mais próximo do que você imagina —
+            é o
+            Destino Certo.</p>
+    </div>
+
+    <div class="stack">
+        <div class="card">
+            <div class="image"><img src="img/fotolondres1.avif" class="card-img-top fotoSobre" alt="..."></div>
+            <p>Há mais de 10 anos planejando o melhor</p>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="accordion accordion-flush mt-5 " id="accordionFlushExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed text" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                MISSÃO
+                <div>
+                    <i class="bi bi-bullseye"></i>
+                </div>
+            </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"> Proporcionar experiências únicas de viagem, oferecendo pacotes personalizados e
+                atendimento de excelência, com foco na satisfação e segurança dos nossos clientes, conectando-os aos
+                destinos dos seus sonhos de forma prática e inesquecível.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item mt-5">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                VISÃO
+                <div><i class="bi bi-eye"></i></div>
+            </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Ser reconhecida como a principal agência de viagens do mercado, destacando-se
+                pela inovação, confiança e compromisso com a realização das melhores experiências para os viajantes, em
+                todo o mundo.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<footer class="text-dark mt-5 redes">
+    <div class="container text-center">
+        <p>&copy; 2025 Destino Certo. Todos os direitos reservados.</p>
+        <div>
+            <a href="#" class="text-dark me-2"><i class="bi bi-whatsapp"></i>  (18) 99123-4567</a>
+            <a href="#" class="text-dark me-2"><i class="bi bi-facebook"></i>  destino_certo</a>
+            <a href="#" class="text-dark me-2"><i class="bi bi-youtube"></i>  destino certo</a>
+            <a href="#" class="text-dark"><i class="bi bi-instagram"></i>  @destinocerto_oficial</a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>

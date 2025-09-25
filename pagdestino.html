@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tóquio</title>
+    <link rel="stylesheet" href="css/pagdestino.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="container-fluid fundo">
+<header>
+    <nav class="navbar navbar-expand-lg fundoNav">
+        <div class="logo">
+            <img src="img/logodestinocerto.png" alt="Logo" class="img-fluid rounded-2">
+        </div>
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mt-2">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link active" href="servicos.html">Serviços</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link active" href="sobrenos.html">Sobre</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link active" href="depoimentos.html">Depoimentos</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link active" href="contato.html">Contato</a>
+                    </li>
+
+                    <button type="button" class="btn" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                            data-bs-whatever="@mdo">
+                        <li class="nav-item">
+                            <a class="nav-link active"><i class="bi bi-person-workspace text-center"></i> Login</a>
+                        </li>
+                    </button>
+
+                    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">CADASTRO</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="recipient-name" class="col-form-label">Login:</label>
+                                            <input type="text" class="form-control" id="recipient-name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message-text" class="col-form-label">Senha:</label>
+                                            <input type="text" class="form-control" id="message-text">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                                    <button type="button" class="btn ">Logar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--                    <div class="d-flex justify-content-end align-items-center">-->
+                    <!--                        <i class="bi bi-person-workspace text-center"></i>-->
+                    <!--                        <a class="nav-link active" href="login.html">Login</a>-->
+                    <!--                    </div>-->
+                </ul>
+
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisa..." aria-label="Search">
+                    <button class="btn btn-outline" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"-->
+<!--        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"-->
+<!--        crossorigin="anonymous"></script>-->
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/toquio1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Tóquio</h1>
+                <h5 class="text-bg-warning">Tradição e inovação em cada detalhe.</h5>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/toquio2.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>
+                    Tóquio é uma das maiores e mais dinâmicas cidades do mundo, localizada no Japão. É famosa por sua
+                    modernidade, com arranha-céus e tecnologia de ponta, ao mesmo tempo que preserva tradições
+                    culturais, como templos e jardins. A cidade oferece uma mistura única de inovação, moda, gastronomia
+                    e história.
+                </h5>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+<section class="d-flex justify-content-center align-items-center">
+    <div class="row cardsdestinos d-flex justify-content-center align-items-center mt-4">
+        <div class="card mb-3 mt-5" style="max-width: 420px;">
+            <div class="row g-0">
+                <div class="col-md-4 mt-3">
+                    <img src="img/decolar-logo.png" class="img-fluid rounded-start imagem" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <button class="button type1">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <p>Pacote de 8 dias e 9 noites por R$ 4824,90 POR PESSOA*</p>
+        </div>
+
+        <div class="card mb-3 mt-5" style="max-width: 420px;">
+            <div class="row g-0">
+                <div class="col-md-4 mt-3">
+                    <img src="img/cvclogo2.png" class="img-fluid rounded-start imagem2" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <button class="button type1">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <p>Pacote de 8 dias e 9 noites por R$ 4824,90 POR PESSOA*</p>
+        </div>
+        <div class="card mb-3 mt-5" style="max-width: 420px;">
+            <div class="row g-0">
+                <div class="col-md-4 mt-3">
+                    <img src="img/logoazul.png" class="img-fluid rounded-start imagem3" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <button class="button type1">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <p>Pacote de 8 dias e 9 noites por R$ 4824,90 POR PESSOA*</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="d-flex justify-content-center align-items-center">
+    <div class="row cardsdestinos mt-4">
+        <div class="card mb-3 mt-5" style="max-width: 420px;">
+            <div class="row g-0">
+                <div class="col-md-4 mt-3">
+                    <img src="img/logoairbnb.png" class="img-fluid rounded-start imagem" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <button class="button type1">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <p>Pacote de 8 dias e 9 noites por R$ 4824,90 POR PESSOA*</p>
+        </div>
+
+        <div class="card mb-3 mt-5" style="max-width: 420px;">
+            <div class="row g-0">
+                <div class="col-md-4 mt-3">
+                    <img src="img/bookinglogo.png" class="img-fluid rounded-start imagem4" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <button class="button type1">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <p>Pacote de 8 dias e 9 noites por R$ 4824,90 POR PESSOA*</p>
+        </div>
+        <div class="card mb-3 mt-5" style="max-width: 420px;">
+            <div class="row g-0">
+                <div class="col-md-4 mt-3">
+                    <img src="img/logoexpedia2.png" class="img-fluid rounded-start imagem5" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body mt-1">
+                        <button class="button type1">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <p>Pacote de 8 dias e 9 noites por R$ 4824,90 POR PESSOA*</p>
+        </div>
+    </div>
+</section>
+
+
+<div class="btn-conteiner mt-5">
+    <a class="btn-content" href="servicos.html">
+        <span class="btn-title">VOLTAR</span>
+
+        </span>
+    </a>
+</div>
+
+
+<footer class="text-light mt-5 redes">
+    <div class="container text-center">
+        <p>&copy; 2025 Destino Certo. Todos os direitos reservados.</p>
+        <div>
+            <a href="#" class="text-light me-2"><i class="bi bi-whatsapp"></i>  (18) 99123-4567</a>
+            <a href="#" class="text-light me-2"><i class="bi bi-facebook"></i>  destino_certo</a>
+            <a href="#" class="text-light me-2"><i class="bi bi-youtube"></i>  destino certo</a>
+            <a href="#" class="text-light"><i class="bi bi-instagram"></i>  @destinocerto_oficial</a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>

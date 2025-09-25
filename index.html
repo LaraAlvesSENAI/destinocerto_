@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="container-fluid fundo">
+<header>
+    <nav class="navbar navbar-expand-lg fundoNav">
+        <div class="logo">
+            <img src="img/logodestinocerto.png" alt="Logo" class="img-fluid rounded-2">
+        </div>
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mt-2">
+                        <a class="nav-link active menus" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link active menus" href="servicos.html">Serviços</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link active menus" href="sobrenos.html">Sobre</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link active menus" href="depoimentos.html">Depoimentos</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link active menus" href="contato.html">Contato</a>
+                    </li>
+
+                    <button type="button" class="btn" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                            data-bs-whatever="@mdo">
+                        <li class="nav-item">
+                            <a class="nav-link active"><i class="bi bi-person-workspace text-center"></i>      Login</a>
+                        </li>
+                    </button>
+
+                    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">CADASTRO</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="recipient-name" class="col-form-label">Login:</label>
+                                            <input type="text" class="form-control" id="recipient-name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message-text" class="col-form-label">Senha:</label>
+                                            <input type="text" class="form-control" id="message-text">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                                    <button type="button" class="btn ">Logar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+<!--                    <div class="d-flex justify-content-end align-items-center">-->
+<!--                        <i class="bi bi-person-workspace text-center"></i>-->
+<!--                        <a class="nav-link active" href="login.html">Login</a>-->
+<!--                    </div>-->
+                </ul>
+
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisa..." aria-label="Search">
+                    <button class="btn btn-outline" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/bannerindex1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Destino Certo</h1>
+                <h5>Viaje o mundo, descubra novas histórias.</h5>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/bannerindex2.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Sua viagem dos sonhos começa aqui.</h1>
+                <h5>Viaje com confiança, explore o mundo com a gente!</h5>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/bannerindex3.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Viaje sem preocupações, deixe-nos cuidar do resto.</h1>
+                <h5>Explorar o mundo ficou mais fácil com a nossa ajuda.</h5>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+
+<section class="exemploalertas mt-3 text-center ">
+    <div class="alert alert-primary" role="alert">
+        DESTINOS DA TEMPORADA:
+    </div>
+
+
+<section class="d-flex justify-content-center align-items-center">
+    <div class="row cardsdestinos mt-4">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card" style="width: 25rem;">
+                <img src="img/Recife.jpg" class="card-img-top" alt="Recife">
+                <div class="card-body text-center">
+                    <h5 class="card-title text-light">RECIFE</h5>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <p class="card-text text-light">Capital de Pernambuco, Recife é conhecida por suas belas praias,
+                        rica cultura e história. A cidade combina elementos modernos com o charme colonial,
+                        destacando-se pelo famoso Recife Antigo, seus rios e o Carnaval vibrante.</p>
+                    <button class="button type1">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card" style="width: 25rem;">
+                <img src="img/rn.jpg" class="card-img-top" alt="Extremoz">
+                <div class="card-body text-center">
+                    <h5 class="card-title text-light">EXTREMOZ</h5>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <p class="card-text text-light">Extremoz é um município famoso
+                        É um destino turístico popular. A cidade também oferece um ambiente tranquilo, perfeito para
+                        quem busca contato com a natureza e belas paisagens, além de estar próxima à capital, Natal.</p>
+                    <button class="button type1">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card" style="width: 25rem;">
+                <img src="img/moscoucerta.jpg" class="card-img-top" alt="Moscou">
+                <div class="card-body text-center">
+                    <h5 class="card-title text-light">MOSCOU</h5>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <p class="card-text text-light">Capital da Rússia, Moscou é um centro cultural e político repleto de
+                        história, com suas icônicas construções, como a Praça Vermelha, a Catedral de São Basílio e o
+                        Kremlin. A cidade mistura o antigo e o moderno em uma metrópole vibrante.</p>
+                    <button class="button type1">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="d-flex justify-content-center align-items-center">
+    <div class="row cardsdestinos mt-5">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card" style="width: 25rem;">
+                <img src="img/baku.jpg" class="card-img-top" alt="Baku">
+                <div class="card-body text-center">
+                    <h5 class="card-title text-light">BAKU</h5>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <p class="card-text text-light">Baku é a capital do Azerbaijão. Conhecida
+                        por sua arquitetura, a cidade combina arranha-céus futuristas com antigas fortificações, como a Torre</p>
+                    <button class="button type1">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card" style="width: 25rem;">
+                <img src="img/salvador.jpg" class="card-img-top" alt="Salvador">
+                <div class="card-body text-center">
+                    <h5 class="card-title text-light">SALVADOR</h5>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <p class="card-text text-light">Capital da Bahia, Brasil, famosa por sua mistura vibrante de cultura
+                        afro-brasileira, música, culinária e arquitetura colonial, além de suas belas praias.</p>
+                    <button class="button type1">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card" style="width: 25rem;">
+                <img src="img/antigua.jpg" class="card-img-top" alt="Antígua">
+                <div class="card-body text-center">
+                    <h5 class="card-title text-light">ANTÍGUA</h5>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <p class="card-text text-light">Ilha do Caribe, conhecida por suas praias paradisíacas, águas cristalinas e a
+                        charmosa cidade colonial de St. John's, ideal para relaxamento.</p>
+                    <button class="button type1">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <footer class="text-light mt-5 redes">
+        <div class="container text-center">
+            <p>&copy; 2025 Destino Certo. Todos os direitos reservados.</p>
+            <div>
+                <a href="#" class="text-light me-2"><i class="bi bi-whatsapp"></i>  (18) 99123-4567</a>
+                <a href="#" class="text-light me-2"><i class="bi bi-facebook"></i>  destino_certo</a>
+                <a href="#" class="text-light me-2"><i class="bi bi-youtube"></i>  destino certo</a>
+                <a href="#" class="text-light"><i class="bi bi-instagram"></i>  @destinocerto_oficial</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</section>
+</body>
+</html>
