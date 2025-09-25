@@ -1,0 +1,96 @@
+.fundoNav{
+    background-color: #176EC2;
+    height: 100px;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+}
+.fundo{
+    background-color: #F8F6F0;
+}
+.texto{
+    font-family: Bahnschrift;
+    font-size: 20px;
+}
+.tamanho{
+    height: 313px;
+}
+/*.card{*/
+/*    background-color: #45c3f6; !important;*/
+/*}*/
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.stack {
+    width: 200px !important;
+    max-width: 400px;
+    transition: 0.25s ease;
+    &:hover {
+        transform: rotate(5deg);
+        .card:before {
+            transform: translatey(-2%) rotate(-4deg);
+        }
+        .card:after {
+            transform: translatey(2%) rotate(4deg);
+        }
+    }
+}
+
+.card {
+    aspect-ratio: 3 / 2;
+    border: 4px solid;
+    background-color: #fff;
+    position: relative;
+    transition: 0.15s ease;
+    cursor: pointer;
+    padding: 5% 5% 15% 5%;
+    &:before,
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        border: 4px solid;
+        background-color: #fff;
+        transform-origin: center center;
+        z-index: -1;
+        transition: 0.15s ease;
+        top: 0;
+        left: 0;
+    }
+
+    &:before {
+        transform: translatey(-2%) rotate(-6deg);
+    }
+
+    &:after {
+        transform: translatey(2%) rotate(6deg);
+    }
+}
+.image {
+    width: 100%;
+    border: 4px solid;
+    background-color: #eee;
+    aspect-ratio: 1 / 1;
+    position: relative;
+}
+
+.browser-warning {
+    margin-bottom: 4rem;
+}
+
+@supports (aspect-ratio: 1 / 1) {
+    .browser-warning {
+        display: none;
+    }
+}
+
+.fotoSobre{
+
+}
+.img-rounded-

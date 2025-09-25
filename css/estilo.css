@@ -1,0 +1,119 @@
+.logo{
+    width: 200px;
+    height: 200px;
+}
+.fundo{
+    background-color: #041B39;
+}
+.fundoNav{
+    background-color: #CDD2BB;
+    height: 100px;
+}
+.card{
+    background-color: #345B7C !important;
+    transition: 3ms;
+}
+.card-img-top{
+    width: 20px; !important;
+    height: 230px; !important;
+}
+.card-img-top2{
+    width: 399px; !important;
+    height: 230px; !important;
+}
+.carousel-item{
+    height: 750px !important;
+}
+.cardsdestinos, .cardestinos2{
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    /*gap:200px; !important;*/
+}
+
+.card:hover{
+    transform: scale(1.08);
+}
+.button {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.button:hover {
+    box-shadow: .5px .5px 150px #252525;
+}
+
+.type1::after {
+    content: "Ver Pacotes";
+    height: 50px;
+    width: 150px;
+    background-color: #008080;
+    color: #fff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(50px);
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.type1::before {
+    content: "Ver pacotes";
+    height: 50px;
+    width: 150px;
+    background-color: #fff;
+    color: #008080;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(0px) scale(1.2);
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.type1:hover::after {
+    transform: translateY(0) scale(1.2);
+}
+
+.type1:hover::before {
+    transform: translateY(-50px) scale(0) rotate(120deg);
+}
+@media (max-width: 768px) {
+    .container-fluid{
+        display: flex;
+        flex-direction: column; !important;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px
+    }
+
+    .container-fluid {
+        flex-direction: column;
+    }
+
+    .menu{
+        padding: 10px;
+    }
+}
